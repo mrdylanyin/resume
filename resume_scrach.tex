@@ -1,0 +1,67 @@
+% Created 2022-07-16 Sat 17:22
+% Intended LaTeX compiler: xelatex
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{ctex}
+\author{Dylan Yin}
+\date{\today}
+\title{Resume}
+\hypersetup{
+ pdfauthor={Dylan Yin},
+ pdftitle={Resume},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.1 (Org mode 9.6)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{镜像打包工具开发}
+\label{sec:orgd305f7b}
+\begin{itemize}
+\item 工具主要职责：将开发人员编译得到的二进制根据配置进行加密签名填充后生成最终可以烧写到芯片的镜像
+\item 使用 \texttt{Flask} + \texttt{Bootstrap4} 开发
+\item 提供注册登录功能，登录的用户提供加密密钥的管理
+\item 使用 \texttt{Flask-Migrate} 对表模型构建与迁移
+\item 使用 \texttt{Cryptography} 库完成中间加密任务
+\item 对接加密中心与签名中心完成加密与签名任务
+\item 使用 \texttt{Flask-File-Upload} 提供文件的上传功能
+\end{itemize}
+\section{用户画像}
+\label{sec:orge5986d0}
+\begin{itemize}
+\item 项目主要职责：通过对工厂员工的产品良率、加班时长、领导评价等多个维度生成用户画像，为人力的晋升以及自我提高提供参考
+\item 使用 \texttt{Kettle} 进行 ETL 将数据抽取到数仓
+\item 使用 \texttt{Pandas} 与 \texttt{Scikit-learn} 完成标签的生成
+\item 使用 \texttt{Flask} 提供前端调用接口
+\item 与前端合作，将项目部署到企业微信中，用户可通过企业微信查看自己的画像
+\end{itemize}
+\section{成品规格书数字化}
+\label{sec:org987cd15}
+\begin{itemize}
+\item 项目主要职责：对历史上所有成品规格书文档解析，将所有成品属性提取入库，提供接口给前端对接，业务人员可方便查询历史成品
+\item 使用 \texttt{Python-docx} 与 \texttt{Pdfplumber} 对文档解析
+\item 使用 \texttt{Pandas} 对数据进行清洗
+\item 使用 \texttt{Kettle} 进行 ETL 将数据抽取到数仓
+\item 使用 \texttt{Flask} 提供前端调用接口
+\item 与前端合作，将项目部署到企业微信中，用户可通过企业微信查看自己的画像
+\end{itemize}
+\section{个人评价}
+\label{sec:orgbb40a23}
+\begin{itemize}
+\item 主力为 \texttt{Python} 语言，对 \texttt{Python} 理解较为深刻，知道如何写出 Pythonic 的代码
+\item 熟悉高级 \texttt{Python} 技巧，熟悉 \texttt{Python} 标准库
+\item 对编程非常感兴趣，业余学习 \texttt{Go} \texttt{Java} 等语言
+\item 对提升工作效率非常在乎，熟练掌握 \texttt{Emacs} 与 \texttt{Vim}
+\end{itemize}
+\end{document}

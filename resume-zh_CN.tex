@@ -16,63 +16,68 @@
 \name{殷海洋}
 
 \basicInfo{
-  \email{dyalnyin@foxmail.com} \textperiodcentered\
+  \email{dylanyin@foxmail.com} \textperiodcentered\
   \phone{(+86) 156-9740-5976} \textperiodcentered\
   % \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}
 }
  
-\section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{湖南理工学院}, 湖南}{2016 -- 2020}
-\textit{学士}\ 电气工程及其自动化
-
-\section{\faUsers\ 工作/项目经历}
-\datedsubsection{\textbf{图像处理与深度学习}, 大学}{2017 -- 2019}
-\role{Pytorch, Sklearn, Python}{实验室项目}
+\section{\faHeart\  个人评价}
 \begin{onehalfspacing}
-高光谱图像的分类
 \begin{itemize}
-  \item 使用 Sklearn 库的 PCA 方法对高光谱图像降维
-  \item 利用 numpy pandas 进行数据处理
-  \item 使用 Pytorch 构建神经网络，对高光谱图像进行训练
+\item 主力为 \texttt{Python} 语言，对 \texttt{Python} 理解较为深刻，知道如何写出 Pythonic 的代码
+\item 熟悉高级 \texttt{Python} 技巧，熟悉 \texttt{Python} 标准库
+%\item 对编程非常感兴趣，业余学习 \texttt{Go} \texttt{Java} 等语言
+\item 对提升工作效率非常在乎，熟练掌握 \texttt{Emacs} 与 \texttt{Vim}
+\item 熟悉利用 \texttt{Jenkins} 进行项目的 \texttt{CI/CD}, 熟练利用 \texttt{Git} 进行版本管理
+\item 熟练在 \texttt{Linux} 上开发，对 \texttt{Linux} 上的工具熟悉
+\item 良好的英语阅读习惯，习惯通过官方文档解决学习解决问题
 \end{itemize}
 \end{onehalfspacing}
 
-\datedsubsection{\textbf{深圳国显科技有限公司}, 深圳}{2020 年 6 月 -- 2021 年 8 月}
-\role{Python, Pandas}{数据开发工程师}
-员工用户画像
-\begin{itemize}
-  \item 通过与业务部门调研，理清数据指标体系
-  \item 标签设计与开发
-  \item 将标签数据聚合保存到数仓
-  \item 通过模糊综合评价⽅法为每个标签打分
-  \item 设计 RESTful 接⼝
-  \item 用户画像可视化
-  \item 为业务部门⼈才培养计划提供支撑
-\end{itemize}
+\section{\faUsers\ 工作/项目经历}
 
-\datedsubsection{\textbf{华为外包项目}}{2021 年 8 月 -- 2022 年 2 月}
-\role{Python, Flask}{Python 开发工程师}
+\datedsubsection{\textbf{华为外包项目}, 深圳}{2021 年 8 月 -- 2022 年 7 月}
+\role{Python, Flask, Sqlite}{Python 开发工程师}
 \begin{onehalfspacing}
 镜像打包工具(后端开发)
 \begin{itemize}
-  \item 设计工具整体的框架
-  \item 对接密钥管理系统与签名中心，完成镜像的签名和镜像的加密
-  \item 提供注册/登录功能，实现密钥的申请
-  \item 设计实现镜像配置文件的上传，打包完成后的镜像下载
+\item 工具主要职责：将开发人员编译得到的二进制根据配置进行加密签名填充后生成最终可以烧写到芯片的镜像
+\item 使用 \texttt{Flask} + \texttt{Bootstrap4} 开发
+\item 提供注册登录功能，登录的用户提供加密密钥的管理
+\item 使用 \texttt{Flask-Migrate} 对表模型构建与迁移
+\item 使用 \texttt{Cryptography} 库完成中间加密任务
+\item 对接加密中心与签名中心完成加密与签名任务
+\item 使用 \texttt{Flask-File-Upload} 提供文件的上传功能
 \end{itemize}
 \end{onehalfspacing}
 
-\datedsubsection{\textbf{华为外包项目}}{2022 年 2 月 -- 至今}
-\role{Java, CDT}{Java 开发工程师}
+\datedsubsection{\textbf{深圳国显科技有限公司}, 深圳}{2021 年 2 月 -- 2021 年 8 月}
+\role{Python, Flask, PostgreSQL, Pandas}{Python 开发工程师}
 \begin{onehalfspacing}
-静态代码扫描(工具开发)
+员工用户画像
 \begin{itemize}
-  \item 利用 Eclipse CDT 解析 C/Cpp 语法树
-  \item 通过 visit 模式，遍历语法树各个节点
-  \item 编写逻辑规则，并将检测出来的缺陷保存下来
-  \item 集成到 CI，扫描代码
+\item 项目主要职责：通过对工厂员工的产品良率、加班时长、领导评价等多个维度生成用户画像，为人力的晋升以及自我提高提供参考
+\item 使用 \texttt{Kettle} 进行 ETL 将数据抽取到数仓
+\item 使用 \texttt{Pandas} 完成标签的生成
+\item 使用 \texttt{Flask} 提供前端调用接口
+\item 与前端合作，将项目部署到企业微信中，用户可通过企业微信查看自己的画像
 \end{itemize}
 \end{onehalfspacing}
+
+\datedsubsection{\textbf{深圳国显科技有限公司}, 深圳}{2020 年 6 月 -- 2021 年 12 月}
+\role{Python, Flask, PostgreSQL, Pandas}{Python 开发工程师}
+\begin{onehalfspacing}
+成品规格书数字化
+\begin{itemize}
+\item 项目主要职责：对历史上所有成品规格书文档解析，将所有成品属性提取入库，提供接口给前端对接，业务人员可方便查询历史成品
+\item 使用 \texttt{Python-docx} 与 \texttt{Pdfplumber} 对文档解析
+\item 使用 \texttt{Pandas} 对数据进行清洗
+\item 使用 \texttt{Kettle} 进行 ETL 将数据抽取到数仓
+\item 使用 \texttt{Flask} 提供前端调用接口
+\item 与前端合作，将项目部署到企业微信中，用户可通过企业微信快速查看历史成品数据
+\end{itemize}
+\end{onehalfspacing}
+
 
 % Reference Test
 %\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
@@ -81,11 +86,36 @@
 %  \item main contribution
 %\end{itemize}
 
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{湖南理工学院}, 湖南}{2016 -- 2020}
+\textit{学士}\ 电气工程及其自动化
+\section{大学项目}
+\datedsubsection{\textbf{图像处理与深度学习}, 大学}{}
+\role{Python, Sklearn, Pytorch}{实验室项目}
+\begin{onehalfspacing}
+高光谱图像的分类
+\begin{itemize}
+  \item 使用 \texttt{Sklearn} 库的 PCA 方法对高光谱图像降维
+  \item 利用 \texttt{Pandas} 进行数据处理
+  \item 使用 \texttt{Pytorch} 构建神经网络，对高光谱图像进行训练
+\end{itemize}
+\end{onehalfspacing}
+% \role{Python, Sklearn, Pytorch}{实验室项目}
+% \begin{onehalfspacing}
+% 人脸检测
+% \begin{itemize}
+%   \item 使用 \texttt{Matlab} 进行人脸检测
+%   \item 利用 numpy pandas 进行数据处理
+%   \item 使用 Pytorch 构建神经网络，对高光谱图像进行训练
+% 项目主要使用 Adaboost 算法进行人脸检测，使用到的技术有 Opencv Python Sklearn。项目后期尝试用 PCA 将图 像降维然后使用 SVM 进 行人脸识别，项目训练集有 10 人左右，项目先用 Adaboost 算法提取到的人脸提取出来之 后进行 PCA 降维，然后使用训练好的 SVM 对人员进行 分类
+% \end{itemize}
+% \end{onehalfspacing}
+
 \section{\faCogs\ IT 技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
   \item 编程语言: Python, Java, Go, \LaTeX
-  \item 工具: (Emacs +Evil), Git
+  \item 工具: (Emacs +Evil), Git, Linux
   \item 语言: 英语(六级) - 熟练阅读英文文档，可以用英语在开源社区沟通
 \end{itemize}
 
