@@ -7,46 +7,83 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{Bin Yuan}
+\name{Dylan Yin}
 
 \basicInfo{
-  \email{yuanbin2014@gmail.com} \textperiodcentered\ 
-  \phone{(+86) 131-221-87xxx} \textperiodcentered\ 
-  \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}}
-
-\section{\faGraduationCap\ Education}
-\datedsubsection{\textbf{Shanghai Jiao Tong University (SJTU)}, Shanghai, China}{2013 -- Present}
-\textit{Master student} in Electronics Engineering (EE), expected March 2016
-\datedsubsection{\textbf{Xidian University}, Shaanxi, China}{2009 -- 2013}
-\textit{B.S.} in Electronics Engineering (EE)
+  \email{dylanyin@foxmail.com} \textperiodcentered\
+  \phone{(+86) 156-9740-5976} \textperiodcentered\
+  % \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}
+}
+\section{\faHeart\  Self-evaluation}
+\begin{onehalfspacing}
+\begin{itemize}
+\item Good at English reading, CET-6 get 509 points
+\item Have a deeper understanding in python language, knowing how to write pythonic code
+%\item 对编程非常感兴趣，业余学习 \texttt{Go} \texttt{Java} 等语言
+\item Interested in increasing code efficiency, love Emacs and Vim
+\item Love work in Linux, familiar with Git workflow
+\end{itemize}
+\end{onehalfspacing}
 
 \section{\faUsers\ Experience}
-\datedsubsection{\textbf{FLAG Inc.} California, America}{2012 -- Present}
-\role{Summer Intern}{Manager: xxx}
-Brief introduction: xxx.
-\begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
-\end{itemize}
+\datedsubsection{\textbf{Huawei Technologies Co., Ltd. (Outsource Job)} Shenzhen}{Aug. 2021 -- Present}
+\role{Python, Flask, Sqlite}{Python Developer}
+\begin{onehalfspacing}
+Image Packing Tool
 
-\datedsubsection{\textbf{xxx Projects}}{Jan. 2015 -- Present}
-\role{C, Python, Django, Linux}{Individual Projects, collaborated with xxx}
-Brief introduction: xxx
+Brief introduction: encrypt and sign the binary that compiled by C, padding the information according to the config file, finally generate the image that can burn to the chip.
 \begin{itemize}
-  \item Implemented xxx feature
-  \item Optimized xxx 5\%
-  \item xxx
+\item Used the \texttt{Flask} as the back-end web framework and the \texttt{Bootstrap5} as the front-end web framework
+\item Implemented login feature, so that the client can login and manage their encryption key
+\item Used the \texttt{Sqlite} database, and easy migrate to other database by using \texttt{Flask-Migrate}
+\item Docked the KMS (key management system) and PKI (public key infrastructure)
+\item Implemented file upload feature by using the \texttt{Flask-File-Upload}
 \end{itemize}
+\end{onehalfspacing}
 
-\datedsubsection{\textbf{\LaTeX\ résumé template}}{May. 2015 -- Present}
-\role{\LaTeX, Maintainer}{Individual Projects}
-An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
+\datedsubsection{\textbf{K\&D Technology Co., Ltd.} Shenzhen}{Jun. 2020 -- Aug. 2021}
+\role{Python, SQL Server, PostgreSQL, Pandas, FineBI, FineReport}{Data Engineer}
+\begin{onehalfspacing}
+\textbf{User Profile}
+
+Brief introduction: User profile is generated from multiple dimensions such as product yield rate, overtime hours, and leadership evaluation to provide reference for employee promotion and self-improvement.
 \begin{itemize}
-  \item Easy to be further customized or extended
-  \item Full support for unicode characters (e.g. CJK) with \XeLaTeX\
-  \item FontAwesome 4.5.0 support
+\item Writed SQL to query data from HRMS's database.
+\item Used \texttt{Kettle Etl Tool} extract data into the data warehouse
+\item Used \texttt{Pandas} to generate label data every day
+\item Designed kanban using FineBI, leader can check employees' profile on their own
 \end{itemize}
+\end{onehalfspacing}
+
+\begin{onehalfspacing}
+\textbf{Specification Digitalization}
+
+Brief introduction: Extract data from the specifications in the history, store the data into the data warehouse, using FineBI build the kanban so that salesman can quickly check if a product had been produced before.
+\begin{itemize}
+\item Used \texttt{Python-docx} and \texttt{Pdfplumber} perform data extract
+\item Used \texttt{Pandas} to clean the data
+\item Used \texttt{Kettle} store the cleaned data into the data warehouse
+\item Used FineBI design the kanban,
+\item Integrated FineBI into Wechat Work, open access permission to the salesman
+\end{itemize}
+\end{onehalfspacing}
+
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{Hunan Institute of Science and Technology}, Hunan}{2016 -- 2020}
+\textit{B.Eng.} in Electrical Engineering and Automation
+% \section{Project in University}
+\\~\\
+\textbf{Computer Vision and Deep Learning}
+
+\begin{onehalfspacing}
+Hyperspectral Image Classification
+\begin{itemize}
+  \item Used \texttt{Sklearn} to perform PCA method to get dimensions reduced
+  \item Used \texttt{Pandas} processing the data
+  \item Builded the neural network using \texttt{Pytorch}
+  \item Classify the Hyperspectral Image use trained neural network
+\end{itemize}
+\end{onehalfspacing}
 
 % Reference Test
 %\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
@@ -55,23 +92,23 @@ An elegant \LaTeX\ résumé template, https://github.com/billryan/resume
 %  \item main contribution
 %\end{itemize}
 
-\section{\faCogs\ Skills}
-\begin{itemize}[parsep=0.5ex]
-  \item Programming Languages: C == Python > C++ > Java
-  \item Platform: Linux
-  \item Development: Web, xxx
-\end{itemize}
+% \section{\faCogs\ Skills}
+% \begin{itemize}[parsep=0.5ex]
+%   \item Programming Languages: C == Python > C++ > Java
+%   \item Platform: Linux
+%   \item Development: Web, xxx
+% \end{itemize}
 
-\section{\faHeartO\ Honors and Awards}
-\datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
-\datedline{Other awards}{2015}
+% \section{\faHeartO\ Honors and Awards}
+% \datedline{\textit{\nth{1} Prize}, Award on xxx }{Jun. 2013}
+% \datedline{Other awards}{2015}
 
-\section{\faInfo\ Miscellaneous}
-\begin{itemize}[parsep=0.5ex]
-  \item Blog: http://your.blog.me
-  \item GitHub: https://github.com/username
-  \item Languages: English - Fluent, Mandarin - Native speaker
-\end{itemize}
+% \section{\faInfo\ Miscellaneous}
+% \begin{itemize}[parsep=0.5ex]
+%   \item Blog: http://your.blog.me
+%   \item GitHub: https://github.com/username
+%   \item Languages: English - Fluent, Mandarin - Native speaker
+% \end{itemize}
 
 %% Reference
 %\newpage
