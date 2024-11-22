@@ -17,45 +17,60 @@
 
 \basicInfo{
   \email{dylanyin@foxmail.com} \textperiodcentered\
-  \phone{(+86) 156-9740-5976} \textperiodcentered\
+  \phone{(+86) 180-0479-5420} \textperiodcentered\
   % \linkedin[billryan8]{https://www.linkedin.com/in/billryan8}
 }
+
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{湖南理工学院}, 湖南}{2016 -- 2020}
+\textit{学士}\ 电气工程及其自动化
+
+\section{\faCertificate\ 证书}
+\begin{itemize}
+    \item 英语六级证书 (CET-6)
+    \item 普通话二级乙等证书
+    \item 计算机二级证书
+\end{itemize}
+
+\section{大学项目经验}
+\datedsubsection{\textbf{高光谱图像分类}, 实验室项目}{}
+\role{Python, Sklearn, Pytorch}{深度学习}
+\begin{onehalfspacing}
+\begin{itemize}
+  \item 使用 Sklearn 实现高光谱图像降维处理
+  \item 设计并实现像素对匹配算法解决数据量不足问题，有效避免过拟合
+  \item 基于 Pytorch 框架搭建卷积神经网络模型，实现高精度分类
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{基于深度学习的人脸检测系统}, 校赛项目}{}
+\role{Python, Pytorch, OpenCV, PyQt}{一等奖}
+\begin{onehalfspacing}
+\begin{itemize}
+  \item 使用 Pytorch 构建并训练人脸检测模型
+  \item 基于 OpenCV 实现实时视频流处理和人脸边界框标注
+  \item 设计开发 PyQt 交互界面，提供友好的用户体验
+\end{itemize}
+\end{onehalfspacing}
  
 \section{\faUsers\ 工作/项目经历}
 
-\datedsubsection{\textbf{滚球视频弹幕互动游戏}}{2022 年 11 月 -- 2023 年 8 月}
-\role{UE5, C++, Python, Blueprint, Stable Diffusion}
+\datedsubsection{\textbf{巧思 - 少儿编程教师}}{2022 年 11 月 -- 至今}
+\role{Python, Scratch, C/C++}{}
 
 \begin{onehalfspacing}
-%   \textbf{游戏玩法}
-
-% \begin{itemize}
-%   \item 在视频网站发布视频，观看用户在视频弹幕中竞猜下期中奖的小球。
-%   \item 对视频网站中的所有弹幕进行爬取。
-%   \item 发布下一期视频，之后得到所有猜对的用户。
-%   \item 发布新一期的视频，所有猜对的用户得到标有自己 ID 的小球以及随机的涂鸦，然后参与比赛。
-%   \item 冠军用户将得到永久的涂鸦皮肤作为奖励。
-% \end{itemize}
-
-        \textbf{技能}
-
+\textbf{教学工作}
 \begin{itemize}
-  \item 在 UE 中使用蓝图设计圆形和锥形的轨道，以及对应的道具。
-  \item 使用 Python 对视频弹幕爬取，保存为 JSON 文件。
-  \item 使用 Stable Diffusion 生成随机涂鸦。
-  \item 在 UE 中使用 C++ 对 JSON 文件读取，创建对应小球赋予涂鸦材质，并使用 Text3dComponent 将用户名围绕小球显示。
-  \item 在 UE 中使用录制功能对小球进行物理模拟并保存到对应的 Sequence 中。
-  \item 在 UE 中使用 Python 将模拟得到的关键帧复制到对应的 Sequence 中，之后渲染得到成片。
+  \item 负责小学生 Scratch 可视化编程教学
+  \item 在锡林浩特一中开展编程校本课程教学
+  \item 教授 Python、C/C++ 等编程语言基础课程
 \end{itemize}
 
-        \textbf{AI 绘画}
-
+\textbf{技术平台建设}
 \begin{itemize}
-  \item 部署 Stable Diffusion, 下载模型供生成绘画。
-  \item 使用 Wildcards 插件保存正反提示词。
-  \item 使用 ControlNet 插件对绘画进行控制。
-  \item 使用 Lora 对绘画风格进行迁移。
-  \item 下载过纹理生成的模型尝试生成纹理，但无法得到很好的法线贴图。
+  \item 使用 Astro + React 开发公司官网 (https://www.qiaos.fun/)
+  \item 基于开源项目二次开发社区网站 (https://teach.qiaos.fun/)
+  \item 使用 Docker 部署，Traefik 配置 HTTPS 及反向代理
 \end{itemize}
 
 \end{onehalfspacing}
@@ -77,76 +92,33 @@
 
 
 
-\datedsubsection{\textbf{镜像打包工具}, 硬件可信技术与工程实验室（2012 实验室）}{2021 年 8 月 -- 2022 年 7 月}
-\role{Python, Flask, Sqlite}{Python 开发工程师}
+\datedsubsection{\textbf{镜像打包工具}, 硬件可信技术与工程实验室}{2021.08 -- 2022.07}
+\role{Python, Flask}{Python 开发工程师}
 \begin{onehalfspacing}
-  \textbf{主要职责与成果}
-
 \begin{itemize}
-  \item 负责开发与维护镜像打包工具。
-        % 该工具主要负责对开发人员编译的二进制文件进行加密、签名、填充，并生成可用于芯片烧写的镜像文件。
-  \item 设计并提供用户注册、登录、密钥管理等功能。
-        % 成功登录后，用户可对密钥进行申请、删除等操作。
-  \item 根据用户上传二进制文件及配置文件完成镜像打包操作。
-        % 工具会对上传的文件进行打包，用户也可查看以往的打包任务，并可下载已打包好的文件。
-\end{itemize}
-
-        \textbf{技能}
-
-\begin{itemize}
-  \item 使用 Flask 和 Bootstrap4，用于提供网页后端与前端设计。
-  \item 使用 Cryptography 完成中间加密任务。
-  \item 使用 Flask-Migrate 进行数据库表模型的构建与迁移。
-  \item 使用 requests 库，完成与加密中心和签名中心的对接。
-  \item 使用消息队列框架 RabbitMQ 用于调度和管理打包任务。
-\end{itemize}
-
-\end{onehalfspacing}
-
-\datedsubsection{\textbf{ 员工画像}, 深圳国显科技有限公司}{2021 年 2 月 -- 2021 年 8 月}
-\role{Python, Flask, PostgreSQL, Pandas}{Python 开发工程师}
-\begin{onehalfspacing}
-\textbf{主要职责与成果}
-
-\begin{itemize}
-\item
-通过对工厂员工的产品良率、加班时长、领导评价等多个维度生成用户画像，提供全面的员工绩效与能力评估。
-\item
-设计和开发了一个基于企业微信的网页应用，为员工提供个性化的信息和权限。
-\end{itemize}
-
-\textbf{技能}
-
-\begin{itemize}
-\item
-使用 Kettle 进行 ETL 操作，定时将相关数据抽取到数据仓库。
-\item
-利用正则表达式 re 模块，有效地完成了数据的清洗和筛选。
-\item
-通过 Pandas 库进行数据处理，对用户进行多维度的标签化。
-\item
-使用 Flask 提供前端 API 接口，实现了前后端的分离。
-\item
-利用企业微信提供的 OAuth 授权登录方式，实现了员工的权限管理。
+  \item 负责开发与维护镜像打包工具，实现用户管理、密钥管理及镜像文件打包功能
+  \item 使用 Flask + Bootstrap4 构建前后端，Cryptography 实现加密，RabbitMQ 管理任务队列
+  \item 通过 Flask-Migrate 进行数据库迁移，requests 库完成加密中心和签名中心对接
 \end{itemize}
 \end{onehalfspacing}
 
-\datedsubsection{\textbf{ 成品规格书数字化}, 深圳国显科技有限公司}{2020 年 6 月 -- 2021 年 12 月}
+\datedsubsection{\textbf{员工画像}, 深圳国显科技有限公司}{2021 年 2 月 -- 2021 年 8 月}
 \role{Python, Flask, PostgreSQL, Pandas}{Python 开发工程师}
 \begin{onehalfspacing}
 \begin{itemize}
-\item
-项目主要职责：对历史上所有成品规格书的 pdf 文档以及 docx 文档解析，将成品的属性提取到数据库中，提供查询历史成品的各个属性的接口。
-\item
-解析历史上所有的成品规格书的 PDF 和 docx 文档，提取成品的关键属性。
-\item
-利用 Python-docx 和 Pdfplumber 库对文档进行解析，提取并规范化不同文档中的成品属性数据。
-\item
-通过 Pandas 和正则表达式模块，对提取到的数据进行清洗和整理，确保数据质量和准确性。
-\item
-使用 Kettle 工具将清洗后的数据抽取到数据仓库，以供后续使用和查询。
-\item
-使用 Flask 提供前端 API 接口，允许用户查询历史成品的各个属性。
+\item 设计并开发基于企业微信的员工画像系统，通过分析产品良率、加班时长等多维度数据，为管理层提供员工绩效评估
+\item 使用 Kettle 进行 ETL 操作，结合 Pandas 进行数据处理和标签化，实现数据自动化处理流程
+\item 基于 Flask 开发 RESTful API，整合企业微信 OAuth 实现权限管理
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{成品规格书数字化}, 深圳国显科技有限公司}{2020 年 6 月 -- 2021 年 12 月}
+\role{Python, Flask, PostgreSQL, Pandas}{Python 开发工程师}
+\begin{onehalfspacing}
+\begin{itemize}
+\item 开发文档解析系统，使用 Python-docx 和 Pdfplumber 自动化提取 PDF 和 Word 文档中的产品规格数据
+\item 通过 Pandas 和正则表达式进行数据清洗，配合 Kettle 实现数据仓库集成
+\item 开发基于 Flask 的查询接口，支持历史产品规格的精确检索
 \end{itemize}
 \end{onehalfspacing}
 
@@ -158,30 +130,6 @@
 %  \item main contribution
 %\end{itemize}
 
-\section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{湖南理工学院}, 湖南}{2016 -- 2020}
-\textit{学士}\ 电气工程及其自动化
-\section{大学项目}
-\datedsubsection{\textbf{图像处理与深度学习}, 大学}{}
-\role{Python, Sklearn, Pytorch}{实验室项目}
-\begin{onehalfspacing}
-高光谱图像分类
-\begin{itemize}
-  \item 使用 Sklearn 对高光谱图像降维。
-  \item 由于高光谱图像数据量少，直接训练很容易造成过拟合，于是使用了一种像素对匹配的方法来增加训练数据量。
-  \item 使用 Pytorch 构建卷积神经网络，对高光谱图像进行训练。
-\end{itemize}
-\end{onehalfspacing}
-\role{Python, Sklearn, Pytorch, OpenCV}{ 校赛一等奖}
-\begin{onehalfspacing}
-人脸检测
-\begin{itemize}
-  \item 使用利用 Pytorch 构建卷积神经网络，对人脸进行训练。
-  \item 使用 OpenCV 将摄像头捕捉的图像处理。
-  \item 推理得到人脸的 BBox 框定。
-  \item 使用 PyQT 设计 UI 界面。
-\end{itemize}
-\end{onehalfspacing}
 
 % \section{\faCogs\ IT 技能}
 % % increase linespacing [parsep=0.5ex]
